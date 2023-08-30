@@ -35,18 +35,21 @@ body{
     padding: 0px 10px 0px 10px;
   }
   
-  /* section  */
+  /* section  one */
   .sec-one {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 100vh;
+   
   }
   .section-one{
     background-image: url(me.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
+  }
+  .section-one{
+    width: 100%;
+    height: 100vh;
   }
   
   
@@ -64,5 +67,150 @@ body{
   }
   .what-sec h5{
     padding-top: 50px;
+    padding-right: 5%;
   text-transform: capitalize;
   }
+
+
+  /* section email */
+.sec-email p {
+padding-left: 7%;
+padding-top: 7%;
+color: red;
+font-weight: bold;
+}
+
+.sec-two{
+  display: flex;
+  justify-content: space-between;
+padding-left: 7%;
+padding-top: 7%;
+}
+.sec-text{
+display: flex;
+}
+.yr {
+  font-size: 65px;
+  padding:3px;
+  font-weight: 800;
+}
+.Experience{
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.sec-vid{
+  padding-right: 5%;
+}
+
+/* section two  */
+
+.section-two{
+  background-color: white;
+  padding: 50px;
+}
+
+/* DESIGN SECTION */
+.design{
+  width: 45%;
+  border: 1px solid burlywood;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+}
+/* WEB DESIGN SECTION */
+
+.web-design{
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(210, 200, 200);
+  border-radius: 30px;
+  width: 55%;
+  padding: 10px 0px 0px 20px;
+  margin: 10px;
+}
+.laptop{
+  background-color: brown;
+  border-radius: 50%;
+  padding: 30px;
+  margin-right: 10px;
+}
+.web-details{
+  padding-bottom: 10px;
+}
+
+.web-details p{
+  text-transform: capitalize;
+  margin-top: 7px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.web-details p:first-child{
+  font-weight: 700;
+  font-size: larger;
+
+}
+/* APP DESIGN SECTION */
+.app-design{
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(210, 200, 200);
+  border-radius: 30px;
+  width: 55%;
+  padding: 10px 0px 0px 20px;
+  margin: 10px;
+}
+.app-design:hover{
+  background-color: whitesmoke;
+}
+.mobile{
+  background-color: #F8DE22;
+  border-radius: 50%;
+  padding: 30px;
+  margin-right: 10px;
+}
+.app-details{
+  padding-bottom: 10px;
+}
+
+.app-design p{
+  text-transform: capitalize;
+  margin-top: 7px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.app-details p:first-child{
+  font-weight: 700;
+  font-size: larger;
+
+}
+/* BRAND IDENTITY */
+.brand-design{
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(210, 200, 200);
+  border-radius: 30px;
+  width: 55%;
+  padding: 10px 0px 0px 20px;
+  margin: 10px;
+}
+.brand-design:hover{
+  background-color: whitesmoke;
+}
+.brand{
+  background-color: #900C3F;
+  border-radius: 50%;
+  padding: 30px;
+  margin-right: 10px;
+}
+.brand-details{
+  padding-bottom: 10px;
+}
+
+.brand-design p{
+  text-transform: capitalize;
+  margin-top: 7px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brand-details p:first-child{
+  font-weight: 700;
+  font-size: larger;
+
+}
