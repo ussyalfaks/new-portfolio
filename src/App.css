@@ -1,32 +1,43 @@
 body{
     background-color: #F5F4ED;
+    box-sizing: border-box;
+    margin: 0;
+  padding: 0;
   }
   
   header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 30px 45px 30px;
+    padding: 20px;
     margin-bottom: 30px;
+    
   }
-  
+
+  .logo{
+    font-size: larger;
+    margin: 0;
+  }
   .nav {
     display: flex;
+    gap: 30px;
+    margin: 0;
+
   }
   li {
-    margin: auto;
-    padding-right: 25px;
     list-style-type: none;
     font-size: small;
     font-family: italic "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   li a {
+    font-size: larger;
     text-decoration: none;
-    color: #0c635e;
     text-transform: uppercase;
+    color: black;
   }
   
   li a:hover {
+    color: #0c635e;
     border-top: none;
     border-right: 2px solid #0c635e;
     border-left: 2px solid #0c635e;
@@ -34,11 +45,14 @@ body{
     border-radius: 50px;
     padding: 0px 10px 0px 10px;
   }
-  
+  header h4{
+    margin: 0;
+  }
   /* section  one */
   .sec-one {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
    
   }
   .section-one{
@@ -50,6 +64,7 @@ body{
   .section-one{
     width: 100%;
     height: 100vh;
+    
   }
   
   
@@ -83,11 +98,13 @@ font-weight: bold;
 .sec-two{
   display: flex;
   justify-content: space-between;
-padding-left: 7%;
-padding-top: 7%;
+  flex-wrap: wrap;
+
 }
 .sec-text{
 display: flex;
+padding-left: 7%;
+padding-top: 7%;
 }
 .yr {
   font-size: 65px;
@@ -100,22 +117,27 @@ display: flex;
 }
 
 .sec-vid{
-  padding-right: 5%;
+  padding: 3% 5% 0% 0%;
 }
 
 /* section two  */
 
 .section-two{
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
   padding: 50px;
 }
 
 /* DESIGN SECTION */
 .design{
+display: flex;
+flex-direction: column;
+align-items: center;
   width: 45%;
-  border: 1px solid burlywood;
   border-radius: 20px;
   padding: 20px 20px 20px 20px;
+  margin: auto;
 }
 /* WEB DESIGN SECTION */
 
@@ -129,7 +151,7 @@ display: flex;
   margin: 10px;
 }
 .laptop{
-  background-color: brown;
+  background-color: #468B97;
   border-radius: 50%;
   padding: 30px;
   margin-right: 10px;
@@ -158,8 +180,9 @@ display: flex;
   padding: 10px 0px 0px 20px;
   margin: 10px;
 }
-.app-design:hover{
-  background-color: whitesmoke;
+.app-design:hover, .web-design:hover{
+  box-shadow:  -3px 2px 9px 2px rgba(142, 138, 138, 0.3);
+
 }
 .mobile{
   background-color: #F8DE22;
@@ -192,7 +215,8 @@ display: flex;
   margin: 10px;
 }
 .brand-design:hover{
-  background-color: whitesmoke;
+  box-shadow:  -3px 2px 9px 2px rgba(142, 138, 138, 0.3);
+
 }
 .brand{
   background-color: #900C3F;
@@ -213,4 +237,118 @@ display: flex;
   font-weight: 700;
   font-size: larger;
 
+}
+/* HELP SECTION */
+.help{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 45%;
+  border-radius: 20px;
+  padding: 15px 20px 20px 20px;
+  margin: auto;
+  box-shadow:   0px 2px 9px 2px rgba(116, 111, 111, 0.3);
+}
+.help:hover{
+  box-shadow:   0px 2px 9px 2px #74a9b3;
+  /* border: 1px solid #468B97; */
+}
+
+.details-head{
+  text-align: left ;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-bottom: -3%;
+  font-family: sans-serif;
+  text-align: start;
+
+}
+.details{
+ font-size: large;
+ font-family: sans-serif;
+}
+.details-num{
+  display: flex;
+}
+.num1 p, .num2 p{
+  font-size: large;
+  
+}
+.num1{
+  margin-right:10%;
+}
+.num1 p:first-child, .num2 p:first-child{
+  font-size: 30px;
+  font-weight: 800;
+  color: rebeccapurple;
+  margin-bottom: -4px;
+}
+/* SECTION III */
+.section-iii h1{
+  text-align: center;
+  font-size: 4em;
+  text-transform: capitalize;
+  font-family: sans-serif;
+
+}
+.sec-iii{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 1px solid #0c635e; */
+}
+.employ-sec{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  box-shadow:   0px 2px 9px 2px rgba(116, 111, 111, 0.3);
+  margin: auto;
+  border-top:0px;
+  border-left:1px solid sandybrown;
+  border-right:0px;
+  border-bottom:0px;
+ /* height: 85vh; */
+  /* border:1px solid sandybrown; */
+}
+.employ-1, .employ-2, .employ-3 {
+  margin-bottom: 100px;
+  padding-left: 100px;
+}
+.employ-1 p, .employ-2 p, .employ-3 p {
+  font-family: sans-serif;
+}
+.employ-1 p:first-child, .employ-2 p:first-child, .employ-3 p:first-child {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+/* SKILLS SECTION */
+.skills-sec{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  box-shadow:   0px 2px 9px 2px rgba(116, 111, 111, 0.3);
+
+  border-top:0px;
+  border-left:1px solid sandybrown;
+  border-right:0px;
+  border-bottom:0px;
+ /* height: 85vh; */
+}
+.skills-1, .skills-2, .skills-3{
+  margin-bottom: 30px;
+}
+.skills-1 p, .skills-2 p, .skills-3 p {
+  font-family: sans-serif;
+}
+.skills-1 p:first-child, .skills-2 p:first-child, .skills-3 p:first-child {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
 }
