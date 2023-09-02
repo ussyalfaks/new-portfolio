@@ -202,6 +202,38 @@ function App() {
           </div>
         </container>
        </section>
+
+
+      <container className='works'>
+       <div className='works-header'>
+       <div className='work-head'>
+          <h1>My latest works </h1>
+          <p>Perfection solution for digital work experience</p>
+        </div>
+
+      <div className='explore'>
+        <h3> Explore more works</h3>
+      </div>
+       </div>
+
+       <div className='work-sample'>
+
+        <div className='work-1'> <h3>Web design</h3></div>
+        <div className='work-2'> <h3>App design</h3></div>
+        <div className='work-3'> <h3>Web Devlopment</h3></div>
+
+       </div>
+      </container>
+
+      <container className='about-us'>
+        <div className='about-head'>
+          <h1>People talk about us</h1>
+          <p>I got a job that was accordance with the salary and field of work, <br />
+            The process of submitting an application was quite cosy</p>
+          </div>
+      </container>
+
+
     </>
   )
 }
